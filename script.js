@@ -21,6 +21,7 @@ $(".button-equal").click(function(event){
 $('.button-AC').click(function(event){
    total=0; 
     document.querySelector('#score1').textContent = total;
+    document.querySelector('#score').textContent = total;
 });
 
 });
