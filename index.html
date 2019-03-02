@@ -2,48 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" type ="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<div class="calculator">
-   <ul class="n1-2-3">
-    
-    <button type="button" class="button-number">1</button>
-    <button type="button" class="button-number">2</button>
-    <button type="button" class="button-number">3</button>
-    </ul>  
-    <ul class="n4-5-6">
-    <button type="button" class="button-number">4</button>
-    <button type="button" class="button-number">5</button>
-    <button type="button" class="button-number">6</button>
-    
-    </ul>
-    <ul class="n7-8-9">
-    <button type="button" class="button-number">7</button>
-    <button type="button" class="button-number">8</button>
-    <button type="button" class="button-number">9</button>
-    <button type="button" class="button-number">0</button>
-  
-    
-    
-    </ul>
-      <ul class="actions">
-    
-    <button type="button" class="button">*</button>
-    <button type="button" class="button">/</button>
-    <button type="button" class="button">+</button>
-    <button type="button" class="button">-</button>
-    <button type="button" class="button-equal">=</button>
-    <button type="button" class="button-AC">ac</button>
-    <p id="score1">0</p>
-    <p id="score">0</p>
-    </ul>
-     
+<div class='calc'>
+  <div class='gora'>
+    <p class='score'>0</p>
+  </div>
+  <div class='dol'>
+    <button class='button bright-gray cancel'>C</button><button class='button bright-gray'>+/-</button><button class='button bright-gray'>%</button><button class='button orange'>÷</button>
+    <button class='button gray'>7</button><button class='button gray'>8</button><button class='button gray '>9</button><button class='button orange'>x</button>
+    <button class='button gray'>4</button><button class='button gray'>5</button><button class='button gray '>6</button><button class='button orange'>-</button>
+    <button class='button gray'>1</button><button class='button gray'>2</button><button class='button gray '>3</button><button class='button orange'>+</button>
+    <button class='button gray zero'>0</button><button class='button gray'>.</button><button class='button orange'>=</button>
+  </div>
 </div>
 
+
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>

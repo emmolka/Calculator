@@ -1,40 +1,63 @@
 *{
-    margin: 0;
+    margin:0;
     padding:0;
+    box-sizing: content-box;
+    color:white;
+    font-size:110%;
+    font-family: 'Roboto', sans-serif;
 }
-.button,
-.button-number,
-.button-equal,
-.button-AC{
-    height:100px;
-    width:100px;
-    font-size:100px;
-    border-radius: 50%;
-    border: none;
-}
-.calculator{
-    height:450px;
-    width:600px;
-    display: table;
-    background-color: grey;
-}
-.n1-2-3,
-.n4-5-6,
-.n7-8-9{
-  width: 308px;
-    height:100px;
-}
-.actions{
-    display: table-cell;
+.calc{
+    width:250px;
+    height:430px;
+    background-color: black;
+    border-radius:3%;
+    margin: 30px 0 0 30px;
     
 }
-
-
-#score,
-#score1{
-     display:block;
-    height:70px;
-    width:100%;
-    font-size:50px;
+.gora{
+    height:30%;
+}
+.dol{
+    height:70%;
+    margin-left:8px;
 }
 
+.button{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin: 4px 3px;
+    cursor: pointer;
+    
+}
+.zero{
+    width:108px;
+    border-radius:40%;
+}
+.bright-gray{
+    background-color: #a5a5a5;
+    border: 1px solid #a5a5a5;
+    color:black;
+}
+.orange{
+    background-color: #ef9228;
+    border: 1px solid #ef9228;
+}
+.gray{
+    background-color: #323232;
+    border: 1px solid #323232;
+}
+.gora p{
+    padding-top:25px;
+    padding-left:20px;
+    font-size:140%;
+    max-width:250px;
+
+}
+.clicked{
+    opacity: 0.5;
+    color:red;
+    transition: color 0.2s;
+
+}
+/*#323232 szary #ef9228 pomaranczowy #a5a5a5 jasyn szary 
